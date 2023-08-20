@@ -1,0 +1,30 @@
+{
+  "name": "email-queue",
+  "version": "1.0.0",
+  "description": "Library developed to send emails using queue",
+  "author": "Mateus Forlevesi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "email",
+    "queue",
+    "mailing",
+    "node"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bullmq": "^4.7.2",
+    "ioredis": "^5.3.2",
+    "nodemailer": "^6.9.4"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.9",
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
